@@ -20,9 +20,9 @@ class HelloWorld(Resource):
         file.save((os.path.join('./image_uploads', filename)))
         resp = classify(filename)
 
-        # # remove uploaded files
-        # for file in os.listdir('image_uploads'):
-        #     os.remove('image_uploads/'+file)
+        # remove uploaded files
+        for file in os.listdir('./image_uploads'):
+            os.remove('image_uploads/'+file)
 
         return(resp)
 

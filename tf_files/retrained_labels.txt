@@ -1,5 +1,3 @@
 bird
 cat
 dog
-fish
-horse
